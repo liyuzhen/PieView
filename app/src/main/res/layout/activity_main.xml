@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rdc.liyuzhen.pieview.activity.MainActivity">
+
+    <com.rdc.liyuzhen.pieview.view.PieView
+        android:id="@+id/pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:dividerColor="#FFFFFFFF"
+        app:defaultColor="#FF414649"
+        app:pressedColor="#FF2F3234"
+        app:gapWidth="1dp"
+        app:arrowLocation="15dp"
+        app:arrowBranchLength="8dp"
+        />
+</RelativeLayout>
