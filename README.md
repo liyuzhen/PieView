@@ -7,7 +7,7 @@
 ### 该项目截图
 ![image](https://github.com/liyuzhen/PieView/raw/master/screenshots/second.png)
 
-### 主要用法
+### 布局配置
 ```xml
 <com.rdc.liyuzhen.pieview.view.PieView
         android:id="@+id/pv"
@@ -21,4 +21,15 @@
         app:arrowLocation="15dp"
         app:arrowBranchLength="8dp"
         />
+```
+
+### Java代码中的使用
+```java
+    PieView pv  = (PieView) findViewById(R.id.pv);
+    pv.setOnPieViewTouchListener(new PieView.OnPieViewTouchListener() {
+        @Override
+        public void onTouch(View v, MotionEvent e, PieView.ClickedDirection d) {
+            ToastUtil.showToast(MainActivity.this, "点击位置：" + d.name());
+        }
+    });
 ```
