@@ -1,13 +1,13 @@
-#PieView
+# PieView
 该项目内部主要是一个圆盘方向控制控件，是从之前做过的项目“东莞大堤OA系统”中单独抽取出来的，并进行了简单的重构。
 
-###集成在东莞项目中的控件
+### 集成在东莞项目中的控件
 ![image](https://github.com/liyuzhen/PieView/raw/master/screenshots/first.png)
 
-###该项目截图
+### 该项目截图
 ![image](https://github.com/liyuzhen/PieView/raw/master/screenshots/second.png)
 
-###主要用法
+### 主要用法
 ```xml
 <com.rdc.liyuzhen.pieview.view.PieView
         android:id="@+id/pv"
